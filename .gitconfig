@@ -1,0 +1,16 @@
+[user]
+	name = Romuald Bulyshko
+	email = romuald@bulyshko.com
+[color]
+	ui = true
+[alias]
+	ci = commit
+	st = status -s
+	co = checkout
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
+	amen = commit --amend
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
