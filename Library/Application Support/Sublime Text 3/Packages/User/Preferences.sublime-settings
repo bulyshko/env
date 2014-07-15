@@ -1,0 +1,13 @@
+{
+    "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+    "font_face": "Source Code Pro",
+    "font_size": 13,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "ensure_newline_at_eof_on_save": true,
+    "default_line_ending": "unix",
+    "show_encoding": true,
+    "draw_white_space": "all",
+    "theme": "Spacegray Eighties.sublime-theme",
+}
