@@ -13,7 +13,7 @@
 	amen = commit --amend
 	last = log -n 1 --pretty=format:'%H'
 	in = !"git remote update -p; git lg --stat ..@{u}"
-	out = git lg --stat @{u}..
+	out = !git lg --stat @{u}..
 [push]
 	default = simple
 [branch]
