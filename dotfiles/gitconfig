@@ -18,3 +18,5 @@
 	default = simple
 [branch]
 	autosetuprebase = always
+[commit]
+	gpgsign = true
