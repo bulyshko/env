@@ -1,0 +1,33 @@
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "caskroom/cask"
+brew "git"
+brew "mas"
+brew "nvm"
+cask "1password"
+cask "bartender"
+cask "blender"
+cask "cleanmymac"
+cask "google-chrome"
+cask "gpg-suite"
+cask "istat-menus"
+cask "iterm2"
+cask "itsycal"
+cask "java"
+cask "mono-mdk"
+cask "paw"
+cask "sketch"
+cask "spotify"
+cask "telegram"
+cask "unity"
+cask "visual-studio"
+cask "visual-studio-code"
+cask "webstorm"
+cask "whatsapp"
+cask "xamarin-android"
+cask "xamarin-ios"
+mas "Keynote", id: 409183694
+mas "Moom", id: 419330170
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
