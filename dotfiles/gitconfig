@@ -14,6 +14,7 @@
 	last = log -n 1 --pretty=format:'%H'
 	in = !"git remote update -p; git lg --stat ..@{u}"
 	out = !git lg --stat @{u}..
+	ignore = ignore = "!gi() { curl --silent --location --output .gitignore https://www.gitignore.io/api/$@ ;}; gi"
 [push]
 	default = simple
 [branch]
