@@ -1,0 +1,10 @@
+set nocompatible " disable compatibility mode with vi
+set encoding=utf-8 " set encoding to UTF-8
+set number " show line numbers
+set wrap " wrap lines
+syntax on " enable syntax highlighting
+filetype plugin indent on " enable file type detection and language specific indents
+set smartindent	" enable smart-indent
+" show white spaces as a characters
+set list
+set listchars=tab:→\ ,space:·,eol:¶
