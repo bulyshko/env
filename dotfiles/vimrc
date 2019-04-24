@@ -1,5 +1,5 @@
 set nocompatible " disable compatibility mode with vi
-set encoding=utf-8 " set encoding to UTF-8
+set encoding=utf-8 nobomb " use UTF-8 without BOM
 set number " show line numbers
 set wrap " wrap lines
 syntax on " enable syntax highlighting
@@ -8,3 +8,8 @@ set smartindent	" enable smart-indent
 " show white spaces as a characters
 set list
 set listchars=tab:→\ ,space:·,eol:¶
+" highlight searches (dynamically), case-insensitive
+set hlsearch
+set incsearch
+set ignorecase
+set tabstop=2 " make tabs as wide as two spaces
